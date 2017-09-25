@@ -16,20 +16,30 @@ Animation::~Animation()
     //dtor
 }
 
-void Animation::update(int row, float deltaTime)
+void Animation::update(int row, float deltaTime, bool faceRight)
 {
     currentImage.y = row;
     totalTime += deltaTime;
 
     if(totalTime>=switchTime)
     {
-       totalTime -= switchTime;
+       totalTime = 0;
        currentImage.x++;
        if(currentImage.x >= imageCount.x)
        {
-           currentImage.x=0;
+           currentImage.x = 0;
        }
     }
-    uvRect.left = currentImage.x * uvRect.width;
     uvRect.top = currentImage.y * uvRect.height;
+    if(faceRight)
+    {
+        uvRect.width = abs(uvRect.width);
+        uvRect.left = currentImage.x * abs(uvRect.width);
+    }
+    if(!faceRight)
+    {
+        uvRect.width = -abs(uvRect.width);
+        uvRect.left = (currentImage.x + 1) * abs(uvRect.width);
+    }
+
 }

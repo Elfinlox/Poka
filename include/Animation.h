@@ -7,7 +7,7 @@ class Animation
     public:
         Animation(sf::Texture* texture, sf::Vector2u imageCount, float switchTime);
         virtual ~Animation();
-        void update(int row, float deltaTime);
+        void update(int row, float deltaTime, bool faceRight);
 
         sf::IntRect uvRect;
 

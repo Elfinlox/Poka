@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
-1506189204 source:c:\users\arghadeep\desktop\new folder\main.cpp
+1506312640 source:c:\users\arghadeep\desktop\new folder\main.cpp
 	<SFML/Graphics.hpp>
-	"Animation.h"
+	"Player.h"
 
 1486736397 c:\sfml-2.4.2\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -391,9 +391,16 @@
 	<string>
 	<vector>
 
-1506189262 c:\users\arghadeep\desktop\new folder\include\animation.h
+1506252146 c:\users\arghadeep\desktop\new folder\include\animation.h
 	<SFML/Graphics.hpp>
 
-1506189288 source:c:\users\arghadeep\desktop\new folder\src\animation.cpp
+1506254437 source:c:\users\arghadeep\desktop\new folder\src\animation.cpp
+	"Animation.h"
+
+1506313578 source:c:\users\arghadeep\desktop\new folder\src\player.cpp
+	"Player.h"
+
+1506312263 c:\users\arghadeep\desktop\new folder\include\player.h
+	<SFML/Graphics.hpp>
 	"Animation.h"
 

@@ -13,7 +13,6 @@ Animation::Animation(sf::Texture* texture, sf::Vector2u imageCount, float switch
 
 Animation::~Animation()
 {
-    //dtor
 }
 
 void Animation::update(int row, float deltaTime, bool faceRight)
@@ -21,7 +20,7 @@ void Animation::update(int row, float deltaTime, bool faceRight)
     currentImage.y = row;
     totalTime += deltaTime;
 
-    if(totalTime>=switchTime)
+    if(totalTime >= switchTime)
     {
        totalTime = 0;
        currentImage.x++;

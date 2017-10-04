@@ -52,6 +52,8 @@
 			<Add directory="C:/SFML-2.4.2/lib" />
 		</Linker>
 		<Unit filename="include/Animation.h" />
+		<Unit filename="include/Collider.h" />
+		<Unit filename="include/Platform.h" />
 		<Unit filename="include/Player.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="openal32.dll" />
@@ -67,6 +69,8 @@
 		<Unit filename="sfml-window-2.dll" />
 		<Unit filename="sfml-window-d-2.dll" />
 		<Unit filename="src/Animation.cpp" />
+		<Unit filename="src/Collider.cpp" />
+		<Unit filename="src/Platform.cpp" />
 		<Unit filename="src/Player.cpp" />
 		<Extensions>
 			<code_completion />

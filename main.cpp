@@ -26,17 +26,6 @@ int main()
     levelmusic.setBuffer(buffer);
     levelmusic.play();
 
-    sf::SoundBuffer buffer2;
-    buffer2.loadFromFile("gamewinmusic.wav");
-    sf::Sound gamewinm;
-    gamewinm.setBuffer(buffer2);
-
-
-
-
-
-
-
 
 
 
@@ -174,7 +163,9 @@ int main()
 
         if(hasEel == true && hasSquid == true && hasDeviate == true && hasNightfin == true)
         {
-            break;
+            gamewin.draw(window);
+            aryo.draw(window);
+            player.cannotMove();
 
         }
 
@@ -224,9 +215,7 @@ int main()
 
     }
 
-    gamewin.draw(window);
-    aryo.draw(window);
-    gamewinm.play();
+
 
     return 0;
 }

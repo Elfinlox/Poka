@@ -558,3 +558,31 @@
 1507127041 source:c:\users\arghadeep\desktop\gaemu\src\player.cpp
 	"Player.h"
 
+1506623227 source:c:\users\arghadeep\desktop\gaemuog\src\animation.cpp
+	"Animation.h"
+
+1506252146 c:\users\arghadeep\desktop\gaemuog\include\animation.h
+	<SFML/Graphics.hpp>
+
+1506788049 source:c:\users\arghadeep\desktop\gaemuog\src\collider.cpp
+	"Collider.h"
+	<math.h>
+
+1506788049 c:\users\arghadeep\desktop\gaemuog\include\collider.h
+	<SFML/Graphics.hpp>
+
+1507019412 source:c:\users\arghadeep\desktop\gaemuog\src\platform.cpp
+	"Platform.h"
+
+1507015756 c:\users\arghadeep\desktop\gaemuog\include\platform.h
+	<SFML/Graphics.hpp>
+	"Collider.h"
+
+1507127041 source:c:\users\arghadeep\desktop\gaemuog\src\player.cpp
+	"Player.h"
+
+1507127041 c:\users\arghadeep\desktop\gaemuog\include\player.h
+	<SFML/Graphics.hpp>
+	"Animation.h"
+	"Collider.h"
+
